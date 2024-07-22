@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* -------- CSS avec SASS en mobile first -------- */
+// import des fichiers SASS dans le style.scss
+// afin de les retranscrire dans le style.css
+@import "./base/variables";
+@import "./layout/body";
+@import "./layout/header";

@@ -1,0 +1,24 @@
+// css de base
+* {
+  font-family: $font-main-text;
+  color: $color_text_noir;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: $color_bg_main;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+}
