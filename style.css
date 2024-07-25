@@ -24,6 +24,12 @@ h2 {
   line-height: 28.13px;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+}
+
 header {
   height: 200px;
   width: 100%;
@@ -162,6 +168,50 @@ header .logo {
   top: 505px;
   left: 20px;
   border-radius: 20px;
+}
+
+.restaurants {
+  padding: 20px;
+  width: Fixed 340px px;
+  height: Hug 1, 58px px;
+  padding-left: 17px;
+  gap: 18px;
+  background-color: #f6f6f6;
+}
+.restaurants .section-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+  padding-left: 8px;
+  padding-bottom: 10px;
+}
+.restaurants .restaurants-cards {
+  width: 340px;
+  height: 251px;
+  border-radius: 0px 0px 15px 15px;
+}
+.restaurants img {
+  width: 346px;
+  height: 231px;
+  margin-right: 10px;
+  border-radius: 15px 15px 0px 0px;
+  padding-bottom: 30px;
+}
+.restaurants .card-content {
+  padding: 5px;
+  margin-top: 0px;
+}
+.restaurants .card-txt {
+  width: 267px;
+  height: 20px;
+  top: 190px;
+  padding-left: 13px;
+}
+.restaurants .card-rating {
+  width: 22px;
+  height: 21px;
+  padding-left: 293px;
 }
 
 /*# sourceMappingURL=style.css.map */
