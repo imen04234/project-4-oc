@@ -1,49 +1,59 @@
 .restaurants {
     padding: 20px;
-    width: Fixed (340px)px;
-    height: Hug (1,058px)px;
+    width: 375px;
+    height: 1058px;
     padding-left: 17px;
     gap: 18px;
     background-color: $color_bg_lightGrey;
-        
-        .section-title {
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 28.13px;
-            text-align: left;
-            padding-left: 8px;
-            padding-bottom: 10px;
+
+        h2 {
+            width: 275px;
+            height: 68px;
+            top: 894px;
+            margin-left: 20px;
         }
 
         .restaurants-cards {
             width: 340px;
             height: 251px;
-            border-radius: 0px 0px 15px 15px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        
+        .card {
+        padding-top: 20px;
         }
 
         img {
-            width: 346px;
-            height: 231px;
-            margin-right: 10px;
             border-radius: 15px 15px 0px 0px;
-            padding-bottom: 30px;
-        }
-        
+            height: 174px;
+            width: 100%;
+            object-fit: cover;
+            object-position: bottom;
+          }
+            
         .card-content {
-            padding: 5px;
-            margin-top: 0px;
+            padding-bottom: 30px;
+            border-radius: 0px 0px 15px 15px;
+            background-color: $color_text_white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
         }
         
         .card-txt {
+            margin-top: 5px;
             width: 267px;
-            height: 20px;
-            top: 190px;
             padding-left: 13px;
         }
 
-        .card-rating {
-            width: 22px;
-            height: 21px;
-            padding-left: 293px;
-        }
+        .card-rating  {
+            margin: 15px;
+       }
+
+       .fa-thin {
+        width: 22px;
+        height: 21px;
+       }
     }
+    
