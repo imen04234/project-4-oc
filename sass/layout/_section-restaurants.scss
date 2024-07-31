@@ -1,59 +1,75 @@
 .restaurants {
-    padding: 20px;
-    width: 375px;
-    height: 1058px;
-    padding-left: 17px;
-    gap: 18px;
+    width: 100%;
+    display: flex;
     background-color: $color_bg_lightGrey;
+    flex-direction: column;
+    padding-bottom: 50px;
+    gap: 20px;
 
         h2 {
-            width: 275px;
-            height: 68px;
-            top: 894px;
-            margin-left: 20px;
+            height: 40px;
+            margin: 40px 0px 20px 15px;
+        }
+
+        h3 {
+            margin-bottom: 10px;
         }
 
         .restaurants-cards {
-            width: 340px;
-            height: 251px;
-            border-radius: 15px;
-            overflow: hidden;
-        }
-        
-        .card {
-        padding-top: 20px;
-        }
-
-        img {
-            border-radius: 15px 15px 0px 0px;
-            height: 174px;
-            width: 100%;
-            object-fit: cover;
-            object-position: bottom;
-          }
-            
-        .card-content {
-            padding-bottom: 30px;
-            border-radius: 0px 0px 15px 15px;
-            background-color: $color_text_white;
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-        
-        .card-txt {
-            margin-top: 5px;
-            width: 267px;
-            padding-left: 13px;
-        }
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-        .card-rating  {
-            margin: 15px;
-       }
+            .card {
+                background-color:  $color_bg_White;
+                width: 340px;
+                height: 251px;
+                border-radius: 15px;
+                overflow: hidden;
+                
+                .new {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    width: 80px;
+                    height: 29px;
+                    margin-top: 10px;
+                    margin-left: 245px;
+                    background-color: $color_bg_Green;
+                    color: $color_text_green;
+                }
 
-       .fa-thin {
-        width: 22px;
-        height: 21px;
-       }
+                img {
+                    border-radius: 15px 15px 0px 0px;
+                    height: 174px;
+                    width: 100%;
+                }
+            
+                .card-content {
+                    padding-bottom: 30px;
+                    border-radius: 0px 0px 15px 15px;
+                    background-color: $color_text_white;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .card-txt {
+                        margin-top: 5px;
+                        width: 267px;
+                        padding-left: 13px;
+                    }
+            
+                    .card-rating  {
+                        margin: 15px;
+                    
+                        .fa-thin {
+                            width: 22px;
+                            height: 21px;
+                        }
+                    }
+                }
+            } 
+        }  
     }
-    

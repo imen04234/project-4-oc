@@ -11,10 +11,9 @@
    .button-explore {
         font-weight: bold;
         color: white;
-        background-color: #9256dc;
+        background: linear-gradient($color_button_top, $color_button_bottom);
         border-radius:30px 30px ;
         font-size: 16px;
-        border: 0.5px solid #9256dc;
         height: 50px;
         width: 218px;
         margin-bottom: 50px;
