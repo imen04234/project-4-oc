@@ -2,7 +2,7 @@
     width: 100%;
     height: 186px;
     padding: 22px 25px 22px 25px;
-    background: $color_bg_Black;
+    background-color: $color_bg_Black;
 
     .logo-footer {
         font-family: $font-logo-title;
@@ -12,17 +12,17 @@
         font-weight: 400;
     }
 
-    .tab-li {
-        margin-top: 16px;
-        font-family: $font-main-text;
-        font-size: 16px;
-        display: flex;
-        gap: 20px;
-        color: $color_text_white;
-    }
+        .tab-li {
+            margin-top: 16px;
+            font-family: $font-main-text;
+            font-size: 16px;
+            display: flex;
+            gap: 20px;
+            color: $color_text_white;
+        }
 
-    .fa-solid {
-        width: 12px;
-        color: $color_text_white;
-    }
+            .fa-solid {
+                width: 12px;
+                color: $color_text_white;
+            }
 }
