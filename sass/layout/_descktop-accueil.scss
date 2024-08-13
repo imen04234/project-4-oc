@@ -1,0 +1,288 @@
+@media screen and (min-width: 1024px) {
+  header {
+    height: 63px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 50px 180px 50px 180px;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: $font-logo-title;
+      font-size: 30px;
+      font-style: italic;
+      height: 63px;
+      font-weight: 400;
+      width: 100%;
+      gap: 10px;
+    }
+  }
+
+  .search {
+    padding: 50px 180px 50px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
+    width: 100%;
+    padding: 15px;
+    background-color: $color_bg_grey;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1),
+      0 5px 10px rgba(0, 0, 0, 0.33);
+
+    .icon {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 12px;
+      padding-left: 15px;
+    }
+
+    .input {
+      padding-left: 20px;
+      height: 100%;
+      font-size: 16px;
+      font-weight: bold;
+      color: rgb(15, 13, 13);
+    }
+
+    ::placeholder {
+      font-family: $font-main-text;
+      font-size: 17px;
+      font-weight: 500;
+      color: $color_text_grey;
+      line-height: 18px;
+      padding-left: 25px;
+    }
+
+    input:focus::placeholder {
+      opacity: 0;
+    }
+  }
+
+  .explore {
+    padding: 50px 180px 50px 180px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #f6f6f6;
+    margin-bottom: 20px;
+
+    .discover {
+      margin-bottom: 20px;
+    }
+
+    .button-explore {
+      font-weight: bold;
+      color: white;
+      background: linear-gradient($color_button_top, $color_button_bottom);
+      border-radius: 30px 30px;
+      font-size: 16px;
+      height: 50px;
+      width: 218px;
+      margin-bottom: 50px;
+
+      &:hover {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+        transform: scale(1.15);
+        transition: transform 400ms;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .functioning {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 180px 50px 180px;
+
+    h2 {
+      width: 275px;
+      height: 31px;
+      font-family: Roboto;
+      font-size: 24px;
+      text-align: left;
+      flex-wrap: wrap;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 30px;
+      width: 1053px;
+      height: 72px;
+
+      .tab {
+        width: 335px;
+        height: 72px;
+        font-size: 16px;
+        background-color: $color_bg_lightGrey;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+
+        .circle {
+          margin-left: -45px;
+          margin-bottom: -29px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          background-color: $color_button_bottom;
+        }
+
+        .number {
+          font-size: 14.18px;
+          font-weight: 500;
+          line-height: 16.62px;
+          text-align: left;
+          color: $color_text_white;
+        }
+
+        .icon {
+          flex-direction: row;
+          margin-left: 10px;
+          margin-right: 30px;
+          width: 13.02px;
+          height: 19.9px;
+          top: 529.54px;
+          left: 65.98px;
+        }
+      }
+    }
+  }
+  .restaurants {
+    width: 100%;
+    height: 810px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: $color_bg_lightGrey;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px 180px 50px 180px;
+
+    h2 {
+      height: 40px;
+      margin: 40px 0px 20px 15px;
+      width: 100%;
+    }
+
+    .restaurants-cards {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      height: 260px;
+
+      .card {
+        background-color: $color_bg_White;
+        width: 490px;
+        height: 260px;
+        border-radius: 15px;
+        overflow: hidden;
+
+        .new {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          width: 80px;
+          height: 29px;
+          margin-top: 10px;
+          margin-left: 370px;
+          background-color: $color_bg_Green;
+          color: $color_text_green;
+        }
+
+        img {
+          border-radius: 15px 15px 0px 0px;
+          height: 200px;
+          width: 100%;
+        }
+
+        .card-content {
+          padding-bottom: 30px;
+          border-radius: 0px 0px 15px 15px;
+          background-color: $color_text_white;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          height: 100%;
+
+          .card-content {
+            .card-txt {
+              width: 24px;
+              padding-left: 13px;
+              height: 40px;
+            }
+          }
+
+          .card-rating {
+            margin: 15px;
+
+            .fa-heart {
+              width: 22px;
+              height: 21px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    width: 100%;
+    height: 114px;
+    padding: 22px 25px 22px 25px;
+    background-color: $color_bg_Black;
+
+    .container {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 30px;
+
+      .ul-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 661px;
+        height: 20px;
+
+        .tab-li {
+          font-family: $font-main-text;
+          font-size: 16px;
+          color: $color_text_white;
+          justify-content: flex-end;
+        }
+
+        .fa-solid {
+          width: 12px;
+          color: $color_text_white;
+        }
+      }
+    }
+    .logo-footer {
+      font-family: $font-logo-title;
+      color: $color_text_white;
+      font-size: 18px;
+      font-style: italic;
+      font-weight: 400;
+      width: 138px;
+      height: 27px;
+      margin-top: 10px;
+      order: 1;
+    }
+  }
+}

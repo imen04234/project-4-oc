@@ -1,6 +1,6 @@
 La palette du goût
 
-Entrées
+    Entrées
 Fricassée d'escargots
 Au piment d'Espelette 
 25€
@@ -14,7 +14,7 @@ Assaisonné à la truffe sur lit de caviar
 20€
 
 
-Plats
+    Plats
 Filet de bœuf aux herbes
 Accompagné de sa ribambelle de légumes
 40€
@@ -27,7 +27,7 @@ Filet de turbot
 Aux agrumes
 44€
         
-Desserts
+    Desserts
 Paris-Brest
 Revisité
 18€
@@ -40,11 +40,11 @@ Mousse au chocolat
 Au piment d'Espelette et à la truffe noire
 23€  
   
----     
+------------------------------------------------     
 
 Le délice des sens
 
-Entrées
+    Entrées
 Tartare de thon
 Assaisonné au yuzu
 25€
@@ -57,7 +57,7 @@ Velouté de cèpes
 Aux truffes
 20€
         
-Plats
+    Plats
 Poulet rôti aux herbes de Provence 
 Et sa crème de truffe
 40€
@@ -70,7 +70,7 @@ Côte de bœuf Angus
 Et sa purée de panais
 44€
 
-Desserts
+    Desserts
 Farandole de desserts
 Du chef
 18€
@@ -83,11 +83,11 @@ Tiramisu
 À la noisette
 23€
 
----
+----------------------------------------
 
 La note enchantée
 
-Entrées
+    Entrées
 Ravioles de foie gras 
 Accompagnées de leur crème à la truffe
 25€
@@ -104,7 +104,7 @@ Foie gras de canard cuit entier
 Confiture de figue et pain toasté
 35€
         
-Plats
+    Plats
 Noix de coquilles Saint-Jacques
 Sur lit de purée de céleri-rave
 40€
@@ -117,7 +117,7 @@ Mijoté de queue de bœuf
 Et riz sauvage aux zestes de citron
 44€
 
-Desserts
+    Desserts
 Macaron noisette et chocolat
 Glace au caramel brun et sel de Guérande
 18€
@@ -130,11 +130,11 @@ Tarte au citron meringuée
 Déstructurée
 23€
 
----
+---------------------------------
 
 À la française
 
-Entrées
+    Entrées
 Tartare de poulpe acidulé
 Aux zestes d'orange
 25€
@@ -147,7 +147,7 @@ Soupe à l'oignon
 Revisitée
 20€
 
-Plats
+    Plats
 Coquilles Saint-Jacques
 Accompagnées d'une purée de panais
 40€
@@ -160,7 +160,7 @@ Pigeonneau d’Ille-et-Vilaine
 Sur son lit de gnocchis aux légumes
 44€
 
-Desserts
+    Desserts
 Pétales de violettes glacés
 Et purée de noisettes
 18€

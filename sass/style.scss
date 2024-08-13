@@ -3,11 +3,15 @@
 // import des fichiers SASS dans le style.scss
 // afin de les retranscrire dans le style.css
 
-@import "./base/variables";
-@import "./layout/body";
-@import "./layout/header";
+@import "./base/_variables";
+@import "./layout/_body";
+@import "./layout/_header";
 @import 'layout/_section-explore';
 @import 'layout/_functioning'; 
-@import 'layout/section-restaurants';
-@import 'layout/footer';
-@import 'layout/La-palette-du-goût.scss';
+@import 'layout/_section-restaurants';
+@import 'layout/_footer';
+@import 'layout/_La-palette-du-goût.scss';
+@import 'layout/_le-delice-des-sens.scss';
+@import 'layout/_la-note-enchantee.scss';
+@import 'layout/_a-la-françcaise.scss';
+@import "layout/descktop-accueil.scss";
