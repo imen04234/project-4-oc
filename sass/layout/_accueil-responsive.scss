@@ -1,0 +1,141 @@
+@media screen and (min-width: 768px) {
+  section {
+    padding: 0 180px;
+    margin: 0 auto;
+  }
+  .explore {
+    padding: 50px 0;
+    h1 {
+      font-size: 40px;
+      width: fit-content;
+    }
+    .button-explore {
+      margin-bottom: 30px;
+    }
+  }
+
+  .functioning {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .tabs {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .tab {
+        width: 435px;
+      }
+    }
+  }
+
+  .restaurants {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .restaurants-cards {
+      flex-direction: row;
+
+      .card {
+        width: 350px;
+        height: 260px;
+      }
+    }
+  }
+
+  .footer {
+    .container {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 30px;
+
+      .ul-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 661px;
+
+        .tab-li {
+          justify-content: flex-end;
+        }
+      }
+    }
+    .logo-footer {
+      margin-top: 10px;
+      order: 1;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .explore {
+    h1 {
+      font-size: 40px;
+      width: fit-content;
+    }
+    .p {
+      font-size: 18;
+      width: fit-content;
+    }
+    button {
+      font-size: 16;
+    }
+  }
+
+  .functioning {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    h2 {
+      font-size: 24;
+    }
+
+    .tabs {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .restaurants {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+
+    .restaurants-cards {
+      flex-direction: row;
+
+      .card {
+        width: 490px;
+        height: 260px;
+      }
+    }
+  }
+
+  .footer {
+    .container {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 30px;
+
+      .ul-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        width: 661px;
+
+        .tab-li {
+          justify-content: flex-end;
+        }
+      }
+    }
+    .logo-footer {
+      margin-top: 10px;
+      order: 1;
+    }
+  }
+}

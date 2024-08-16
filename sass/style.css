@@ -315,8 +315,6 @@ img {
 
 .restaurants-palette-du-gout {
   width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
   background-color: #eaeaea;
   border-radius: 22px 20px 0px 0px;
   padding-top: 25px;
@@ -475,8 +473,6 @@ img {
 
 .restaurants-le-delice-des-sens {
   width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
   background-color: #eaeaea;
   border-radius: 22px 20px 0px 0px;
   padding-top: 25px;

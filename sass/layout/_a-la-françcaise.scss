@@ -1,5 +1,4 @@
 header {
-  height: 63px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -15,7 +14,6 @@ header {
       font-family: $font-logo-title;
       font-size: 30px;
       font-style: italic;
-      height: 63px;
       font-weight: 400;
       width: 100%;
       gap: 10px;
@@ -33,14 +31,11 @@ header {
 
 img {
   width: 100%;
-  height: 275px;
   object-fit: cover;
   z-index: 1;
 }
 
 .restaurants-a-la-francaise {
-  width: 100%;
-  height: fit-content;
   background-color: $color_bg_grey;
   border-radius: 22px 20px 0px 0px;
   padding-top: 25px;
@@ -51,7 +46,6 @@ img {
   .title-menu {
     font-family: $font-logo-title;
     width: 100%;
-    height: 29px;
     font-size: 28px;
 
     .fa-heart {
@@ -65,7 +59,6 @@ img {
 
   .menu {
     width: 100%;
-    height: 270px;
     display: flex;
     flex-direction: column;
     padding-top: 25px;
@@ -86,8 +79,6 @@ img {
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-
-      height: 69px;
       font-size: 21px;
       gap: 7px;
 
@@ -123,7 +114,6 @@ img {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-bottom: 50px;
     padding: 70px;
 
     .button-order {
@@ -147,7 +137,6 @@ img {
 
 .footer {
   width: 100%;
-  height: 186px;
   padding: 22px 25px 22px 25px;
   background-color: $color_bg_Black;
 
@@ -173,3 +162,4 @@ img {
     color: $color_text_white;
   }
 }
+
