@@ -24,7 +24,38 @@ h2 {
 }
 
 h3 {
-font-size: 18px;
-font-weight: 700;
-line-height: 21.09px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+}
+
+.fa-heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background: linear-gradient(
+    0deg,
+    rgba(171, 94, 220, 1) 0%,
+    rgba(223, 111, 218, 1) 58%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-heart.full {
+  display: none;
+}
+.fa-heart.empty {
+  color: transparent; /* Rendre l'intérieur transparent */
+  -webkit-text-stroke: 1px black; /* Ajoute un contour noir de 1px */
+  background: none;
+}
+
+.heart:hover .fa-heart.full {
+  display: flex;
+}
+
+.heart:hover .fa-heart.empty {
+  display: none;
 }

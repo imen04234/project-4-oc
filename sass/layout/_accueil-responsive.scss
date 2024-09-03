@@ -1,16 +1,13 @@
 @media screen and (min-width: 768px) {
-  section {
-    padding: 0 180px;
-    margin: 0 auto;
-  }
   .explore {
     padding: 50px 0;
+
     h1 {
       font-size: 40px;
       width: fit-content;
     }
     .button-explore {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
   }
 
@@ -51,6 +48,7 @@
       display: flex;
       justify-content: flex-end;
       margin-right: 30px;
+      gap: 40px;
 
       .ul-footer {
         display: flex;
@@ -71,25 +69,33 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .explore {
-    h1 {
-      font-size: 40px;
-      width: fit-content;
-    }
-    .p {
-      font-size: 18;
-      width: fit-content;
-    }
-    button {
-      font-size: 16;
+  .functioning {
+    .tabs {
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+        .tab {
+          width: 335px;
+        }
     }
   }
 
-  .functioning {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  .restaurants {
+    .restaurants-cards {
+      .card {
+        width: 490px;
+        height: 260px;
 
+        .new {
+          margin-left: 370px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .functioning {
     h2 {
       font-size: 24;
     }
@@ -98,44 +104,21 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
+
+      .tab {
+        width: 345px;
+      }
     }
   }
 
   .restaurants {
-    flex-direction: row;
-    flex-wrap: wrap;
     padding-bottom: 80px;
 
     .restaurants-cards {
-      flex-direction: row;
-
       .card {
-        width: 490px;
+        width: 460px;
         height: 260px;
       }
-    }
-  }
-
-  .footer {
-    .container {
-      display: flex;
-      justify-content: flex-end;
-      margin-right: 30px;
-
-      .ul-footer {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        width: 661px;
-
-        .tab-li {
-          justify-content: flex-end;
-        }
-      }
-    }
-    .logo-footer {
-      margin-top: 10px;
-      order: 1;
     }
   }
 }
