@@ -4,7 +4,7 @@
 // afin de les retranscrire dans le style.css
 
 @import "./base/_variables";
-@import "./layout/_body";
+@import "layout/body";
 @import "./layout/_header";
 @import "layout/_section-explore";
 @import "layout/_functioning";
@@ -13,4 +13,3 @@
 @import "layout/_menus.scss";
 @import "layout/_accueil-responsive.scss";
 @import "layout/_restaurants-responsive.scss";
-

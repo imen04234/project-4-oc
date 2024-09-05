@@ -29,33 +29,42 @@ h3 {
   line-height: 21.09px;
 }
 
+.heart {
+  position: relative;
+  overflow: hidden;
+}
+
 .fa-heart {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 24px;
+}
+
+.fa-heart.full {
+  position: absolute;
+  left: 0;
+  top: 25px;
   background: linear-gradient(
     0deg,
     rgba(171, 94, 220, 1) 0%,
     rgba(223, 111, 218, 1) 58%
   );
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.fa-heart.full {
-  display: none;
-}
-.fa-heart.empty {
-  color: transparent; /* Rendre l'intérieur transparent */
-  -webkit-text-stroke: 1px black; /* Ajoute un contour noir de 1px */
-  background: none;
+  -webkit-background-clip: text;
+  transition: 0.3s ease;
 }
 
 .heart:hover .fa-heart.full {
-  display: flex;
+  top: 0;
 }
 
 .heart:hover .fa-heart.empty {
-  display: none;
+  background: linear-gradient(
+    0deg,
+    rgba(171, 94, 220, 1) 0%,
+    rgba(223, 111, 218, 1) 58%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
