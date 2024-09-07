@@ -152,7 +152,6 @@ img {
     }
 
     .tabs-menu {
-      width: 100%;
       padding: 15px;
       display: flex;
       flex-direction: column;
@@ -200,6 +199,7 @@ img {
           overflow: hidden;
 
           h3 {
+            width: 90%;
             margin-bottom: 5px;
             font-size: 18px;
             text-overflow: ellipsis;
@@ -207,6 +207,7 @@ img {
             overflow: hidden;
           }
           p {
+            width: 90%;
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;
@@ -223,6 +224,7 @@ img {
         display: flex;
         align-items: center;
         font-size: 15px;
+        width: 10%;
       }
 
       .check-selection {

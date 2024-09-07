@@ -31,40 +31,31 @@ h3 {
 
 .heart {
   position: relative;
-  overflow: hidden;
+  width: 50px; /* Ajuste la taille selon vos besoins */
+  height: 50px;
 }
 
 .fa-heart {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
+  font-size: 23px;
 }
 
-.fa-heart.full {
+.heart .fa-heart.full {
   position: absolute;
+  top: 0;
   left: 0;
-  top: 25px;
+  color: transparent;
   background: linear-gradient(
     0deg,
     rgba(171, 94, 220, 1) 0%,
-    rgba(223, 111, 218, 1) 58%
+    rgba(223, 111, 218, 1) 60%
   );
-  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  transition: 0.3s ease;
+  background-clip: text;
+  clip-path: inset(100%); /* Cache complètement le cœur plein */
+  transition: clip-path 0.5s ease; /* Transition pour l'effet de remplissage */
 }
 
 .heart:hover .fa-heart.full {
-  top: 0;
-}
-
-.heart:hover .fa-heart.empty {
-  background: linear-gradient(
-    0deg,
-    rgba(171, 94, 220, 1) 0%,
-    rgba(223, 111, 218, 1) 58%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  clip-path: inset(0); /* Remplit progressivement le cœur du bas vers le haut */
+  font-size: 24px;
 }

@@ -33,34 +33,29 @@ h3 {
 
 .heart {
   position: relative;
-  overflow: hidden;
+  width: 50px; /* Ajuste la taille selon vos besoins */
+  height: 50px;
 }
 
 .fa-heart {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
+  font-size: 23px;
 }
 
-.fa-heart.full {
+.heart .fa-heart.full {
   position: absolute;
+  top: 0;
   left: 0;
-  top: 25px;
-  background: linear-gradient(0deg, rgb(171, 94, 220) 0%, rgb(223, 111, 218) 58%);
-  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background: linear-gradient(0deg, rgb(171, 94, 220) 0%, rgb(223, 111, 218) 60%);
   -webkit-background-clip: text;
-  transition: 0.3s ease;
+  background-clip: text;
+  clip-path: inset(100%); /* Cache complètement le cœur plein */
+  transition: clip-path 0.5s ease; /* Transition pour l'effet de remplissage */
 }
 
 .heart:hover .fa-heart.full {
-  top: 0;
-}
-
-.heart:hover .fa-heart.empty {
-  background: linear-gradient(0deg, rgb(171, 94, 220) 0%, rgb(223, 111, 218) 58%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  clip-path: inset(0); /* Remplit progressivement le cœur du bas vers le haut */
+  font-size: 24px;
 }
 
 header {
@@ -439,7 +434,6 @@ img {
   padding-top: 10px;
 }
 .title-restaurant .menu .tabs-menu {
-  width: 100%;
   padding: 15px;
   display: flex;
   flex-direction: column;
@@ -483,6 +477,7 @@ img {
   overflow: hidden;
 }
 .title-restaurant .menu .tabs-menu .tab-menu .text-menu h3 {
+  width: 90%;
   margin-bottom: 5px;
   font-size: 18px;
   text-overflow: ellipsis;
@@ -490,6 +485,7 @@ img {
   overflow: hidden;
 }
 .title-restaurant .menu .tabs-menu .tab-menu .text-menu p {
+  width: 90%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -502,6 +498,7 @@ img {
   display: flex;
   align-items: center;
   font-size: 15px;
+  width: 10%;
 }
 .title-restaurant .menu .tabs-menu .check-selection {
   transform: translateX(100%); /* Position initiale hors écran */
@@ -670,7 +667,7 @@ img {
     margin-left: 10px;
   }
   .title-restaurant .menu .tabs-menu {
-    width: 100%;
+    width: 80%;
   }
   .title-restaurant .menu .tabs-menu .tabs-menu {
     height: 69px;
